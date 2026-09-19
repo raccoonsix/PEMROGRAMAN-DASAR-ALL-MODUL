@@ -9,9 +9,9 @@ int main() {
     float result_fix = (result_addition * x) / y;
 
     printf("Variable a bernilai %d\n", a);
-    printf("Variable a bernilai %d\n", b);
-    printf("Variable a bernilai %d\n", x);
-    printf("Variable a bernilai %d\n", y);
+    printf("Variable b bernilai %d\n", b);
+    printf("Variable x bernilai %d\n", x);
+    printf("Variable y bernilai %d\n", y);
     printf("Hasil dari a ditambah b dikali x dan dibagi y adalah %.2f", result_fix);
 
     return 0;

@@ -19,7 +19,7 @@ int main(void) {
     printf("Sisi B = %d cm\n", height);
     printf("Sisi C = %d cm\n", slant);
     
-    printf(" = %d cm\n", circumference);
+    printf("keliling = %d cm\n", circumference);
     printf("luas = %d cm\n", area);
 
     return 0;

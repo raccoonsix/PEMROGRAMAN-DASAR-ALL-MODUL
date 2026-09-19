@@ -11,7 +11,7 @@ int main() {
     printf("Variable b bernilai %d\n", b);
     printf("Variable x bernilai %d\n", x);
     printf("Variable y bernilai %d\n", y);
-    printf("Total sisas bagi dari a dibagi b dan x dibagi y adalah %d\n", result);
+    printf("Total sisa bagi dari a dibagi b dan x dibagi y adalah %d\n", result);
 
     return 0;
 }

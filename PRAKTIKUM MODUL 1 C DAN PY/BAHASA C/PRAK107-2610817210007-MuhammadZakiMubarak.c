@@ -13,7 +13,7 @@ int main() {
     printf("keliling tanah pak dangklek adalah %d\n", around);
     printf("harga tanah per meter adalah %d\n", price_per_meter);
     printf("Jawaban\n");
-    printf("Biaya yang harus dikeluarkan pak dengklek adalah : %d", total_cost);
+    printf("Biaya yang harus dikeluarkan pak dengklek adalah : Rp %d", total_cost);
 
     return 0;
 }
