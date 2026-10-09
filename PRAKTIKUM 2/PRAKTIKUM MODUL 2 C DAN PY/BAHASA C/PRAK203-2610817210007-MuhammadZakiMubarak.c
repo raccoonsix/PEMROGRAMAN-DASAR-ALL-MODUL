@@ -9,4 +9,3 @@ int main() {
     printf("%.3f\n", result);
     return 0;
 }
- 

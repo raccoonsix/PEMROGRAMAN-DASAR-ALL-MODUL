@@ -3,9 +3,9 @@
 
 int main() {
     double a, b, base, height, circumference, area;
-    printf("Masukkan Nilai sisi miring: ");
-    scanf("%lf", &a);
     printf("Masukkan Nilai sisi tegak: ");
+    scanf("%lf", &a);
+    printf("Masukkan Nilai sisi miring: ");
     scanf("%lf", &b);
 
     base = sqrt(b * b - a * a);

@@ -1,16 +1,15 @@
 #include <stdio.h>
- 
+
 int main() {
-    double a, b, tmp;
- 
-    scanf("%lf %lf", &a, &b);
- 
-    if (a > b) { 
-        tmp = a; a = b; b = tmp; 
-    } else if (a < b) { 
-        tmp = a; a = b; b = tmp; 
+    int a, b;
+    
+    scanf("%d %d", &a, &b);
+    
+    if (a > b) {
+        printf("%d %d\n", b, a);
+    } else {
+        printf("%d %d\n", a, b);
     }
     
-    printf("%.10g %.10g\n", a, b);
     return 0;
 }

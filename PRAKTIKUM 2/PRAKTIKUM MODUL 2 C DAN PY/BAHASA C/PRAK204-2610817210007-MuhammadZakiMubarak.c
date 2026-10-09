@@ -1,12 +1,11 @@
 #include <stdio.h>
 const double pi = 22/7.0;
-
 int main() {
     double r, h;
     double volume, area, circumference;
-    printf("Masukkan Jari-Jari: ");
+    printf("");
     scanf("%lf", &r);
-    printf("Masukkan Tinggi: ");
+    printf("");
     scanf("%lf", &h);
 
     volume = pi * r * r * h;
