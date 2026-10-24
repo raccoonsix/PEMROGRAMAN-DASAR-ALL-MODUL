@@ -25,7 +25,7 @@ int main() {
         }
 
         if (choice == 5) {
-            printf("Terimakasih, telah menggunakan kalkulator Muhammad Zaki Mubarak\n");
+            printf("Terimakasih\n");
             break;
         }
 

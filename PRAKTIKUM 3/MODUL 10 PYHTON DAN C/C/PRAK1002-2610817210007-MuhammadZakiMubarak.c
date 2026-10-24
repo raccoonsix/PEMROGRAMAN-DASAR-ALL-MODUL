@@ -1,17 +1,22 @@
 #include <stdio.h>
 
-int jumlah_digit(long long n) {
-    if (n == 0) {
-        return 0;
+void fibonacci(long long a, long long b, int sisa) {
+    if (sisa == 0) {
+        return;
     }
-    return (int)(n % 10) + jumlah_digit(n / 10);
+    printf("%lld", a);
+    if (sisa > 1) {
+        printf(" ");
+    }
+    fibonacci(b, a + b, sisa - 1);
 }
 
 int main() {
-    long long n;
+    int n;
 
-    scanf("%lld", &n);
-    printf("Jumlah digit dari %lld adalah %d\n", n, jumlah_digit(n));
+    scanf("%d", &n);
+    fibonacci(0, 1, n);
+    printf("\n");
 
     return 0;
 }

@@ -12,7 +12,7 @@ while True:
         break
 
     if pilihan == "5":
-        print("Terimakasih, telah menggunakan kalkulator Muhammad Zaki Mubarak")
+        print("Terimakasih")
         break
 
     if pilihan not in ("1", "2", "3", "4"):
