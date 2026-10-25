@@ -1,15 +1,11 @@
 #include <stdio.h>
 //Buatlah Function Disini
 int MaxBilangan(int a, int b, int c, int d) {
-    int max = a;
-    if (a > b) {
-        int max = b;
-    } else if (c > b) {
-        int max = c;
-    } 
-    else {
-        int max = d;
-    }
+    int maks = a;
+    if (b > maks) maks = b;
+    if (c > maks) maks = c;
+    if (d > maks) maks = d;
+    return maks;
 }
 
 int main() {
