@@ -2,8 +2,8 @@
 n1, n2 = map(int, input().split())
 
 if n1 != n2:
-    print("Jumlah tidak sama")
+    print("Tidak Sama")
 else:
-    baris1 = list(map(int, input().split()))
-    baris2 = list(map(int, input().split()))
-    print(*[baris1[i] * baris2[i] for i in range(n1)])
+    line1 = list(map(int, input().split()))
+    line2 = list(map(int, input().split()))
+    print(*[line1[i] * line2[i] for i in range(n1)])

@@ -1,22 +1,22 @@
 #include <stdio.h>
 
 int main() {
-    int n, kelipatan, i, j;
+    int n, multiple, i, j;
     long total = 0;
 
-    scanf("%d %d", &n, &kelipatan);
+    scanf("%d %d", &n, &multiple);
 
     for (i = 1; i <= n; i++) {
-        long jumlah_baris = 0;
+        long number_of_rows = 0;
         for (j = i; j >= 1; j--) {
             if (j < i) {
                 printf(" + ");
             }
-            printf("(%d * %d)", j, kelipatan);
-            jumlah_baris += (long)j * kelipatan;
+            printf("(%d * %d)", j, multiple);
+            number_of_rows += (long)j * multiple;
         }
-        printf(" = %ld\n", jumlah_baris);
-        total += jumlah_baris;
+        printf(" = %ld\n", number_of_rows);
+        total += number_of_rows;
     }
 
     printf("%ld\n", total);
