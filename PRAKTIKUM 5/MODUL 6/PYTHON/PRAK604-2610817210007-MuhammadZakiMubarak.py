@@ -9,7 +9,7 @@ else:
     pagar = 0
     for i in range(len(kode)):
         if kode[i] == pesan[i]:
-            if kode [1] == " ":
+            if kode [i] == " ":
                 hasil += " "
             else:
                 hasil += "*"
@@ -25,5 +25,3 @@ else:
         print("Pesan Asli")
     else:
         print("Pesan Palsu")
-
-

@@ -1,4 +1,3 @@
-// PRAK604 - Kode Shikamaru
 #include <stdio.h>
 #include <string.h>
 
@@ -8,8 +7,8 @@ int main() {
 
     fgets(kode, sizeof(kode), stdin);
     fgets(pesan, sizeof(pesan), stdin);
-    kode[strcspn(kode, "\r\n")] = '\0';
-    pesan[strcspn(pesan, "\r\n")] = '\0';
+    kode[strcspn(kode, "\n")] = '\0';
+    pesan[strcspn(pesan, "\n")] = '\0';
 
     if (strlen(kode) != strlen(pesan)) {
         printf("Panjang kalimat berbeda, pesan palsu\n");

@@ -9,5 +9,5 @@ for huruf in kalimat.lower():
         else:
             konsonan += 1
 
-print("Jumlah Vokal: ", vokal)
-print("Jumlah Konsonan: ", konsonan)
+print("Jumlah Vokal:", vokal)
+print("Jumlah Konsonan:", konsonan)

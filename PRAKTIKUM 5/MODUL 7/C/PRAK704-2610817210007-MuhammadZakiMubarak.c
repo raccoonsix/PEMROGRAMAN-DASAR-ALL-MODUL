@@ -1,4 +1,3 @@
-// PRAK704 - Potong deskripsi produk
 #include <stdio.h>
 #include <string.h>
 
