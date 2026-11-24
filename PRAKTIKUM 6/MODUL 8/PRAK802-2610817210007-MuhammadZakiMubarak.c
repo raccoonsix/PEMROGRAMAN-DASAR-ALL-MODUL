@@ -7,13 +7,13 @@ void tukarkursi(int *a, int *b ) {
 }
 
 int main() {
-    int budi, andi;
-    scanf("%d %d", &budi, &andi);
-    printf("kursi awal budi = %d, kursi awal andi = %d\n", budi, andi);
+    int andi, budi;
+    scanf("%d %d", &andi, &budi);
+    printf("Sebelum ditukar andi = %d, budi = %d\n", andi, budi);
 
-    tukarkursi(&budi, &andi);
+    tukarkursi(&andi, &budi);
 
-    printf("kursi budi sekarang = %d, kursi andi sekarang = %d", budi, andi);
+    printf("Setelah ditukar andi = %d, budi = %d", andi, budi);
 
     return 0;
 }
