@@ -10,14 +10,14 @@ struct Peserta {
 int main() {
     struct Peserta p;
 
-    printf("Nama: "); 
+    printf("Nama : "); 
     fgets(p.nama, sizeof(p.nama), stdin);
     p.nama[strcspn(p.nama, "\n")] = '\0';
 
-    printf("Umur: ");
+    printf("Umur : ");
     scanf("%d", &p.umur);
 
-    printf("Skor: ");
+    printf("Skor : ");
     scanf("%d", &p.skor);
 
     printf("Data Peserta:\n");
